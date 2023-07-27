@@ -1,0 +1,119 @@
+@media (min-width: 640px) {
+  button {
+    width: 70%;
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .quick-search img {
+    margin-inline: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding: 1.5em 7em;
+  }
+
+  button {
+    width: 50%;
+  }
+
+  .download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-ios,
+  .btn-mac {
+    margin: 2em 1em;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 5em;
+  }
+
+  .footer-logo {
+    margin: 0;
+  }
+
+  .information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: self-start;
+  }
+  .contact-us {
+    grid-column: 1;
+  }
+
+  .install-guide {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .privacy {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  li {
+    padding: 0 1em;
+    margin: 0;
+  }
+  i {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.7em;
+  }
+}
+
+@media (min-width: 1280px) {
+  button {
+    width: 30%;
+  }
+  .quick-search {
+    display: flex;
+
+    gap: 5em;
+  }
+  section:nth-child(4) {
+    padding: 0;
+  }
+  .quick-search img {
+    margin: 0;
+  }
+  .quick-search-text {
+    text-align: left;
+  }
+
+  .supercharge-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 0 10em;
+  }
+
+  .companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1536px) {
+  .access-clipboard img {
+    margin-inline: auto;
+  }
+}

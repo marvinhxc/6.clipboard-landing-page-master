@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,600;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-xs: clamp(0.78rem, calc(0.72rem + 0.25vw), 0.96rem);
+  --text-sm: clamp(0.94rem, calc(0.85rem + 0.36vw), 1.2rem);
+  --text-base: clamp(1.13rem, calc(1rem + 0.52vw), 1.5rem);
+  --text-lg: clamp(1.35rem, calc(1.18rem + 0.72vw), 1.88rem);
+  --text-xl: clamp(1.62rem, calc(1.39rem + 1vw), 2.34rem);
+  --text-2xl: clamp(1.94rem, calc(1.63rem + 1.36vw), 2.93rem);
+  --text-3xl: clamp(2.33rem, calc(1.9rem + 1.83vw), 3.66rem);
+  --text-4xl: clamp(2.8rem, calc(2.23rem + 2.45vw), 4.58rem);
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+
+body {
+  min-width: 320px;
+  font-size: var(--text-base);
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  background-image: url(/images/bg-header-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  min-height: 30vh;
+}
+
+.header-logo {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, 0);
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 0.7em 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: var(--text-sm);
+}
+a:hover {
+  color: var(--strong-cyan);
+}
+
+section {
+  padding: 1.5em;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 2em;
+}
+
+p {
+  color: var(--grayish-blue);
+  font-size: var(--text-sm);
+  padding-top: 1em;
+}
+
+button {
+  display: block;
+  border: none;
+  padding: 1em;
+  width: 100%;
+  margin: 1em 0;
+  border-radius: 50px;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-family: 600;
+  font-size: var(--text-sm);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--grayish-blue);
+}
+
+.btn-ios {
+  background-color: var(--light-blue);
+  margin-top: 3em;
+}
+.btn-mac {
+  background-color: var(--strong-cyan);
+  margin-bottom: 5em;
+}
+
+.quick-search {
+  margin-top: 3em;
+}
+
+.access-clipboard {
+  margin-top: 5em;
+}
+.access-clipboard img {
+  margin-top: 3em;
+}
+
+.supercharge-wrapper img {
+  margin: 1.5em auto;
+}
+
+.companies img {
+  margin-inline: auto;
+  padding: 2.5em 0;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.footer-logo {
+  margin-inline: auto;
+  padding: 2em 0;
+  max-width: 10%;
+}
+
+i {
+  font-size: var(--text-lg);
+  color: black;
+  margin: 2em 0.5em;
+}
+
+i:hover {
+  color: var(--strong-cyan);
+}
